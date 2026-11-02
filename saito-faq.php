@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Saito FAQ
  * Description: Questions/réponses sur les articles, pages, produits et catégories de produits (WooCommerce), avec schéma FAQPage (JSON-LD). Plugin compagnon de Saito Navi.
- * Version: 0.3.0
+ * Version: 0.3.1
  * Requires at least: 6.0
  * Requires PHP: 7.4
  * Author: Troteseil Lucas
@@ -14,7 +14,7 @@
 
 if ( ! defined( 'ABSPATH' ) ) exit;
 
-define( 'SAITO_FAQ_VERSION', '0.3.0' );
+define( 'SAITO_FAQ_VERSION', '0.3.1' );
 define( 'SAITO_FAQ_DIR', plugin_dir_path( __FILE__ ) );
 define( 'SAITO_FAQ_URL', plugin_dir_url( __FILE__ ) );
 define( 'SAITO_FAQ_META_KEY', '_saito_faq_items' );

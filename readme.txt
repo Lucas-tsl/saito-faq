@@ -4,7 +4,7 @@ Tags: faq, woocommerce, schema, json-ld, accordion
 Requires at least: 6.0
 Tested up to: 7.1
 Requires PHP: 7.4
-Stable tag: 0.3.0
+Stable tag: 0.3.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -84,6 +84,9 @@ shortcode is placed in its content.
 
 == Changelog ==
 
+= 0.3.1 =
+* The shared "Saito" menu no longer has a Tools page (custom CSS and JavaScript): WordPress.org no longer allows plugins to store arbitrary code. Custom CSS saved there is moved to the WordPress Additional CSS; saved JavaScript is shown once in an admin notice so it can be copied elsewhere.
+
 = 0.3.0 =
 * New shared "Saito" admin menu, common to all Saito plugins: Saito FAQ now
   lives under Saito, next to a dashboard of the Saito plugins, a Tools
@@ -107,6 +110,9 @@ shortcode is placed in its content.
   accordion, keyboard navigation between tabs.
 
 == Upgrade Notice ==
+
+= 0.3.1 =
+The Saito > Tools page is removed; custom CSS saved there moves to the WordPress Additional CSS.
 
 = 0.3.0 =
 New shared "Saito" admin menu with a FAQ overview page. Nothing to change on upgrade.
